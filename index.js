@@ -4,6 +4,7 @@ const {userRouter} = require("./routes/user.route")
 const {productRouter} = require("./routes/product.route")
 const {cartRouter} = require("./routes/cart.route")
 const {orderRouter} = require("./routes/order.route")
+const logger = require('./middlewares/logger'); 
 require("dotenv").config();
 
 const app = express();
@@ -11,6 +12,17 @@ const app = express();
 const PORT = process.env.PORT || 8000
 
 app.use(express.json());
+
+// Middleware to log requests
+app.use((req, res, next) => {
+    logger.info(`${req.method} ${req.url}`);
+    next();
+});
+// Error handling middleware
+app.use((err, req, res, next) => {
+    logger.error(err.stack);
+    res.status(500).send('Internal Server Error');
+});
 
 app.use("/user",userRouter);
 app.use("/product",productRouter);

@@ -1,0 +1,6 @@
+{"level":"info","message":"POST /users/signup"}
+{"level":"info","message":"POST /user/signup"}
+{"level":"info","message":"POST /user/signup","timestamp":"2024-02-22T17:26:43.267Z"}
+{"level":"info","message":"POST /user/signup","timestamp":"2024-02-22T17:33:01.442Z"}
+{"level":"info","message":"POST /user/login","timestamp":"2024-02-22T17:33:18.474Z"}
+{"level":"info","message":"GET /cart/view","timestamp":"2024-02-22T17:33:51.592Z"}
