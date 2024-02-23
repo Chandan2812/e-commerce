@@ -78,30 +78,25 @@ API documentation is provided using Swagger. You can view the API documentation 
 
 ## Directory Structure
 
-📂 E-Commerce
-├── 📂 config
-|   ├── 📄 db.js
-|   └── 📄 logger.js
-| 
-├── 📂 middlewares
-|   ├── 📄 authmiddleware.js
-|   └── 📄 validation.middleware.js
-| 
-├── 📂 models
-|   ├── 📄 cart.model.js
-|   ├── 📄 order.model.js
-|   ├── 📄 product.model.js
-|   └── 📄 user.model.js
-|   
-├── 📂 routes
-|   ├── 📄 cart.route.js
-|   ├── 📄 order.route.js
-|   ├── 📄 product.route.js
-|   └── 📄 user.route.js
-|    
-├── 📂 swagger
-|    └── 📄 swagger.js
-|  
-├── 📄 index.js
-├── 📄 package.json
-└── 📄 README.md
+📂 E-Commerce<br>
+├── 📂 config<br>
+&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📄 db.js<br>
+&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── 📄 logger.js<br>
+├── 📂 middlewares<br>
+&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📄 logger.js<br>
+&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📄 authmiddleware.js<br>
+&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── 📄 validation.middleware.js<br>
+├── 📂 models<br>
+&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📄 cart.model.js<br>
+&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📄 order.model.js<br>
+&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📄 product.model.js<br>
+&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── 📄 user.model.js<br>
+├── 📂 routes<br>
+&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📄 cart.route.js<br>
+&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📄 order.route.js<br>
+&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📄 product.route.js<br>
+&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── 📄 user.route.js<br>
+├── 📄 swagger.js<br>
+├── 📄 index.js<br>
+├── 📄 package.json<br>
+└── 📄 README.md<br>
