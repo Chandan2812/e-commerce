@@ -42,7 +42,7 @@ npm run server
 
 ## API Documentation
 
-API documentation is provided using Swagger. You can view the API documentation [here]([/api-docs](https://e-commerce-6vg5.onrender.com/api-docs/)).
+API documentation is provided using Swagger. You can view the API documentation [here](https://e-commerce-6vg5.onrender.com/api-docs/).
 
 ## Endpoints
 
