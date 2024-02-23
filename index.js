@@ -5,6 +5,8 @@ const {productRouter} = require("./routes/product.route")
 const {cartRouter} = require("./routes/cart.route")
 const {orderRouter} = require("./routes/order.route")
 const logger = require('./middlewares/logger'); 
+const swaggerUi = require('swagger-ui-express');
+const swaggerDocument = require('./swagger-output.json');
 require("dotenv").config();
 
 const app = express();
@@ -12,6 +14,9 @@ const app = express();
 const PORT = process.env.PORT || 8000
 
 app.use(express.json());
+
+// Use Swagger UI middleware
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 // Middleware to log requests
 app.use((req, res, next) => {

@@ -4,3 +4,4 @@
 {"level":"info","message":"POST /user/signup","timestamp":"2024-02-22T17:33:01.442Z"}
 {"level":"info","message":"POST /user/login","timestamp":"2024-02-22T17:33:18.474Z"}
 {"level":"info","message":"GET /cart/view","timestamp":"2024-02-22T17:33:51.592Z"}
+{"level":"info","message":"GET /","timestamp":"2024-02-23T08:57:45.325Z"}

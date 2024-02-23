@@ -6,7 +6,7 @@ const { authMiddleware } = require("../middlewares/authmiddleware");
 const cartRouter = express.Router();
 
 // Add a product to the cart
-cartRouter.post("/add", authMiddleware, async (req, res) => {
+cartRouter.post("/addToCart", authMiddleware, async (req, res) => {
     try {
         const { productId, quantity } = req.body;
         const userId = req.user._id;
