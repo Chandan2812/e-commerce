@@ -2,7 +2,11 @@
 
 This is an API for managing e-commerce operations, including user registration, product management, cart handling, and order placement.
 
-## Deployed link
+## Project Type
+
+ **Backend**
+
+## Deployed App
 
 - Backend - https://e-commerce-6vg5.onrender.com
 
@@ -70,3 +74,34 @@ API documentation is provided using Swagger. You can view the API documentation 
 - **Place an order**: `POST /order/place`
 - **View order history**: `GET /order/history`
 - **Fetch detailed information about an order**: `GET /order/:orderId`
+
+
+## Directory Structure
+
+📂 E-Commerce
+├── 📂 config
+|   ├── 📄 db.js
+|   └── 📄 logger.js
+| 
+├── 📂 middlewares
+|   ├── 📄 authmiddleware.js
+|   └── 📄 validation.middleware.js
+| 
+├── 📂 models
+|   ├── 📄 cart.model.js
+|   ├── 📄 order.model.js
+|   ├── 📄 product.model.js
+|   └── 📄 user.model.js
+|   
+├── 📂 routes
+|   ├── 📄 cart.route.js
+|   ├── 📄 order.route.js
+|   ├── 📄 product.route.js
+|   └── 📄 user.route.js
+|    
+├── 📂 swagger
+|    └── 📄 swagger.js
+|  
+├── 📄 index.js
+├── 📄 package.json
+├── 📄 README.md
